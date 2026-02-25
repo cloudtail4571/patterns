@@ -16,6 +16,14 @@ public:
     double cost() override { return 1.99; }
 };
 
+class Tea : public Beverage {
+public:
+    string getDescription() override {
+        return "Чай";
+    }
+    double cost() override { return 1.50; }
+};
+
 class CondimentDecorator : public Beverage {
 protected:
     Beverage* bev;
@@ -54,13 +62,22 @@ public:
     double cost() override { return bev->cost() + 0.15; }
 };
 
+class Choco : public CondimentDecorator {
+public:
+    Choco(Beverage* b) : CondimentDecorator(b) {}
+    string getDescription() override {
+        return bev->getDescription() + ", Шоколад";
+    }
+    double cost() override { return bev->cost() + 0.20; }
+};
+
 int main()
 {
     setlocale(LC_ALL, "RUS");
     Beverage* drink = new Espresso();
     drink = new Milc(drink);
     drink = new Sugar(drink);
-    drink = new Syrop(drink);
+    drink = new Choco(drink);
 
     cout << drink->getDescription() << " стоит $" << drink->cost() << endl;
 
@@ -69,4 +86,19 @@ int main()
 
     delete drink;
     delete simpleDrink;
+
+    cout << "-------------------" << endl;
+
+    Beverage* drink1 = new Tea();
+    drink1 = new Milc(drink1);
+    drink1 = new Syrop(drink1);
+
+    cout << drink1->getDescription() << " стоит $" << drink1->cost() << endl;
+
+    Beverage* simpleDrink1 = new Tea();
+    cout << simpleDrink1->getDescription() << " стоит $" << simpleDrink1->cost() << endl;
+
+    delete drink1;
+    delete simpleDrink1;
+
 }
