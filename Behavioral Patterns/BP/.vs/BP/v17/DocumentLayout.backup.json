@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\klg\\Desktop\\patterns\\patterns\\Behavioral Patterns\\BP\\",
+  "WorkspaceRootPath": "C:\\Users\\klg\\Documents\\patterns\\Behavioral Patterns\\BP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7CCB8647-2CC9-44AE-90FA-6E1515231D69}|BP.vcxproj|C:\\Users\\klg\\Desktop\\patterns\\patterns\\Behavioral Patterns\\BP\\BP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{7CCB8647-2CC9-44AE-90FA-6E1515231D69}|BP.vcxproj|C:\\Users\\klg\\Documents\\patterns\\Behavioral Patterns\\BP\\BP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7CCB8647-2CC9-44AE-90FA-6E1515231D69}|BP.vcxproj|solutionrelative:BP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "BP.cpp",
-              "DocumentMoniker": "C:\\Users\\klg\\Desktop\\patterns\\patterns\\Behavioral Patterns\\BP\\BP.cpp",
+              "DocumentMoniker": "C:\\Users\\klg\\Documents\\patterns\\Behavioral Patterns\\BP\\BP.cpp",
               "RelativeDocumentMoniker": "BP.cpp",
-              "ToolTip": "C:\\Users\\klg\\Desktop\\patterns\\patterns\\Behavioral Patterns\\BP\\BP.cpp",
+              "ToolTip": "C:\\Users\\klg\\Documents\\patterns\\Behavioral Patterns\\BP\\BP.cpp",
               "RelativeToolTip": "BP.cpp",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAowFQAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAywJsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-02-25T13:43:43.965Z",
               "EditorCaption": ""
