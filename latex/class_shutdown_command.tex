@@ -1,0 +1,90 @@
+\doxysection{Shutdown\+Command Class Reference}
+\hypertarget{class_shutdown_command}{}\label{class_shutdown_command}\index{ShutdownCommand@{ShutdownCommand}}
+
+
+Конкретная команда выключения компьютера  
+
+
+Inheritance diagram for Shutdown\+Command:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_shutdown_command}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_shutdown_command_a7785c34376ca324b4796c8ae7c54f56c}{Shutdown\+Command}} (\doxymbox{\hyperlink{class_computer_system}{Computer\+System}} \texorpdfstring{$\ast$}{*}s)
+\begin{DoxyCompactList}\small\item\em Конструктор команды выключения \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_shutdown_command_a9fbcb462c911ed9a45e40d7617846395}{execute}} () override
+\begin{DoxyCompactList}\small\item\em Выполняет выключение компьютера \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_shutdown_command_a1ab55b9c24bc00698d95e4ff0f695087}{undo}} () override
+\begin{DoxyCompactList}\small\item\em Отменяет выключение (демонстрационная реализация). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \doxymbox{\hyperlink{class_command}{Command}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual {\bfseries \texorpdfstring{$\sim$}{\string~}\+Command} ()
+\begin{DoxyCompactList}\small\item\em Виртуальный деструктор для корректного удаления через базовый указатель \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Конкретная команда выключения компьютера 
+
+Реализует выполнение операции завершения работы системы 
+
+\label{doc-constructors}
+\Hypertarget{class_shutdown_command_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_shutdown_command_a7785c34376ca324b4796c8ae7c54f56c}\index{ShutdownCommand@{ShutdownCommand}!ShutdownCommand@{ShutdownCommand}}
+\index{ShutdownCommand@{ShutdownCommand}!ShutdownCommand@{ShutdownCommand}}
+\doxysubsubsection{\texorpdfstring{ShutdownCommand()}{ShutdownCommand()}}
+{\footnotesize\ttfamily \label{class_shutdown_command_a7785c34376ca324b4796c8ae7c54f56c} 
+Shutdown\+Command::\+\+Shutdown\+Command (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_computer_system}{Computer\+System}} \texorpdfstring{$\ast$}{*}}]{s}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Конструктор команды выключения 
+
+
+\begin{DoxyParams}{Parameters}
+{\em s} & Указатель на объект \doxylink{class_computer_system}{Computer\+System} \\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{class_shutdown_command_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_shutdown_command_a9fbcb462c911ed9a45e40d7617846395}\index{ShutdownCommand@{ShutdownCommand}!execute@{execute}}
+\index{execute@{execute}!ShutdownCommand@{ShutdownCommand}}
+\doxysubsubsection{\texorpdfstring{execute()}{execute()}}
+{\footnotesize\ttfamily \label{class_shutdown_command_a9fbcb462c911ed9a45e40d7617846395} 
+void Shutdown\+Command::\+execute (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Выполняет выключение компьютера 
+
+
+
+Implements \doxymbox{\hyperlink{class_command_a6fd7d9bd8df8bfc881e4d6c7cd1878b7}{Command}}.
+
+\Hypertarget{class_shutdown_command_a1ab55b9c24bc00698d95e4ff0f695087}\index{ShutdownCommand@{ShutdownCommand}!undo@{undo}}
+\index{undo@{undo}!ShutdownCommand@{ShutdownCommand}}
+\doxysubsubsection{\texorpdfstring{undo()}{undo()}}
+{\footnotesize\ttfamily \label{class_shutdown_command_a1ab55b9c24bc00698d95e4ff0f695087} 
+void Shutdown\+Command::\+undo (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Отменяет выключение (демонстрационная реализация). 
+
+
+
+Implements \doxymbox{\hyperlink{class_command_ad5eccd34dc85abda2cd0c21d819c17dc}{Command}}.
+
+
+
+The documentation for this class was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+Behavioral Patterns/\+\+BP/\+BP.\+cpp\end{DoxyCompactItemize}

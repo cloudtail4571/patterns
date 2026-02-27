@@ -1,0 +1,84 @@
+\doxysection{Archer Class Reference}
+\hypertarget{class_archer}{}\label{class_archer}\index{Archer@{Archer}}
+
+
+Класс с настройками для персонажа "{}Лучник"{}.  
+
+
+Inheritance diagram for Archer:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_archer}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+string \doxymbox{\hyperlink{class_archer_a06b8cd5ef290796b05250eec34d677a1}{get\+Type}} () override
+\begin{DoxyCompactList}\small\item\em Функция для получения типа персонажа \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_archer_ad5a62a929801de20b6c53858b8a77256}{attack}} () override
+\begin{DoxyCompactList}\small\item\em Функция для выполнения действий персонажа \end{DoxyCompactList}\item 
+int \doxymbox{\hyperlink{class_archer_a89a53d966ff202960b8637717c0f42c8}{get\+Health}} () override
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Класс с настройками для персонажа "{}Лучник"{}. 
+
+\label{doc-func-members}
+\Hypertarget{class_archer_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_archer_ad5a62a929801de20b6c53858b8a77256}\index{Archer@{Archer}!attack@{attack}}
+\index{attack@{attack}!Archer@{Archer}}
+\doxysubsubsection{\texorpdfstring{attack()}{attack()}}
+{\footnotesize\ttfamily \label{class_archer_ad5a62a929801de20b6c53858b8a77256} 
+void Archer::\+attack (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Функция для выполнения действий персонажа 
+
+\begin{DoxyNote}{Note}
+Не влияет ни на что. Это учебный код 
+\end{DoxyNote}
+\begin{DoxyRefDesc}{Todo}
+\item[\doxymbox{\hyperlink{todo__todo000003}{Todo}}]Добавить возможность отбирать жизни у того, на кого нападаем \end{DoxyRefDesc}
+
+
+Implements \doxymbox{\hyperlink{class_character}{Character}}.
+
+\Hypertarget{class_archer_a89a53d966ff202960b8637717c0f42c8}\index{Archer@{Archer}!getHealth@{getHealth}}
+\index{getHealth@{getHealth}!Archer@{Archer}}
+\doxysubsubsection{\texorpdfstring{getHealth()}{getHealth()}}
+{\footnotesize\ttfamily \label{class_archer_a89a53d966ff202960b8637717c0f42c8} 
+int Archer::\+get\+Health (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \doxymbox{\hyperlink{class_character}{Character}}.
+
+\Hypertarget{class_archer_a06b8cd5ef290796b05250eec34d677a1}\index{Archer@{Archer}!getType@{getType}}
+\index{getType@{getType}!Archer@{Archer}}
+\doxysubsubsection{\texorpdfstring{getType()}{getType()}}
+{\footnotesize\ttfamily \label{class_archer_a06b8cd5ef290796b05250eec34d677a1} 
+string Archer::\+get\+Type (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Функция для получения типа персонажа 
+
+\begin{DoxyReturn}{Returns}
+string -\/ строку, название персонажа 
+\end{DoxyReturn}
+\begin{DoxyRemark}{Remarks}
+Получаем только имя персонажа т.\+к это учебный код 
+\end{DoxyRemark}
+
+
+Implements \doxymbox{\hyperlink{class_character}{Character}}.
+
+
+
+The documentation for this class was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+Creational Patterns/\+\+CP/\+CP.\+cpp\end{DoxyCompactItemize}

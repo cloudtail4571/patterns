@@ -1,0 +1,6 @@
+var searchData=
+[
+  ['getdescription_0',['getDescription',['../class_beverage.html#a23e305526d707afe1a006e441a71a8b8',1,'Beverage::getDescription()'],['../class_espresso.html#a03a8c6439c9c2db55b890cda1b58a6a6',1,'Espresso::getDescription()'],['../class_tea.html#a1f1f781e52894889ee60051beb89db88',1,'Tea::getDescription()'],['../class_condiment_decorator.html#a0f95d1319daadd8ed01b2ffaa3c601d6',1,'CondimentDecorator::getDescription()'],['../class_milc.html#a217b75bee5a6de6791f75a836133d704',1,'Milc::getDescription()'],['../class_sugar.html#afe82094b43e6da7041983c35bfb7197b',1,'Sugar::getDescription()'],['../class_syrop.html#a0bde19416422095d6e96c1b9295eb72d',1,'Syrop::getDescription()'],['../class_choco.html#aa6391f7c60c76e971b31f632b4c42216',1,'Choco::getDescription()']]],
+  ['gethealth_1',['getHealth',['../class_warrior.html#aa1418d23db6dac64b33ea11f8ceaa801',1,'Warrior::getHealth()'],['../class_mage.html#a5d3b882bf6e84e4f695a705e23645107',1,'Mage::getHealth()']]],
+  ['gettype_2',['getType',['../class_warrior.html#ac5b177bd2922074cb8fe592ff90d73e6',1,'Warrior::getType()'],['../class_mage.html#ae136b8777d93fff917e2da6eedcf58ea',1,'Mage::getType()'],['../class_archer.html#a06b8cd5ef290796b05250eec34d677a1',1,'Archer::getType()'],['../class_knight.html#abd9e9abbc5448c928112a4b94d7e7dce',1,'Knight::getType()']]]
+];

@@ -1,0 +1,66 @@
+\doxysection{Command Class Reference}
+\hypertarget{class_command}{}\label{class_command}\index{Command@{Command}}
+
+
+Абстрактный базовый класс команды  
+
+
+Inheritance diagram for Command:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_command}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \doxymbox{\hyperlink{class_command_a6fd7d9bd8df8bfc881e4d6c7cd1878b7}{execute}} ()=0
+\begin{DoxyCompactList}\small\item\em Выполнить команду \end{DoxyCompactList}\item 
+virtual void \doxymbox{\hyperlink{class_command_ad5eccd34dc85abda2cd0c21d819c17dc}{undo}} ()=0
+\begin{DoxyCompactList}\small\item\em Отменить выполнение команды \end{DoxyCompactList}\item 
+\Hypertarget{class_command_a641c23ef533dd6f77d0a4ef0311598b2}\label{class_command_a641c23ef533dd6f77d0a4ef0311598b2} 
+virtual {\bfseries \texorpdfstring{$\sim$}{\string~}\+Command} ()
+\begin{DoxyCompactList}\small\item\em Виртуальный деструктор для корректного удаления через базовый указатель \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Абстрактный базовый класс команды 
+
+Определяет интерфейс для выполнения и отмены операций 
+
+\label{doc-func-members}
+\Hypertarget{class_command_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_command_a6fd7d9bd8df8bfc881e4d6c7cd1878b7}\index{Command@{Command}!execute@{execute}}
+\index{execute@{execute}!Command@{Command}}
+\doxysubsubsection{\texorpdfstring{execute()}{execute()}}
+{\footnotesize\ttfamily \label{class_command_a6fd7d9bd8df8bfc881e4d6c7cd1878b7} 
+virtual void Command::\+execute (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Выполнить команду 
+
+
+
+Implemented in \doxymbox{\hyperlink{class_launch_browser_command_a7095647975f6e36fa51e8831020e6f60}{Launch\+Browser\+Command}}, \doxymbox{\hyperlink{class_open_file_command_ad4c19347016458e2e9ef1e837e4ad0fe}{Open\+File\+Command}}, and \doxymbox{\hyperlink{class_shutdown_command_a9fbcb462c911ed9a45e40d7617846395}{Shutdown\+Command}}.
+
+\Hypertarget{class_command_ad5eccd34dc85abda2cd0c21d819c17dc}\index{Command@{Command}!undo@{undo}}
+\index{undo@{undo}!Command@{Command}}
+\doxysubsubsection{\texorpdfstring{undo()}{undo()}}
+{\footnotesize\ttfamily \label{class_command_ad5eccd34dc85abda2cd0c21d819c17dc} 
+virtual void Command::\+undo (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Отменить выполнение команды 
+
+
+
+Implemented in \doxymbox{\hyperlink{class_launch_browser_command_a1f74fc3f40306db43bf9df7289388662}{Launch\+Browser\+Command}}, \doxymbox{\hyperlink{class_open_file_command_aeea4ae13a0c1748c00702f16c52f4e89}{Open\+File\+Command}}, and \doxymbox{\hyperlink{class_shutdown_command_a1ab55b9c24bc00698d95e4ff0f695087}{Shutdown\+Command}}.
+
+
+
+The documentation for this class was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+Behavioral Patterns/\+\+BP/\+BP.\+cpp\end{DoxyCompactItemize}

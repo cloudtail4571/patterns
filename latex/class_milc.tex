@@ -1,0 +1,109 @@
+\doxysection{Milc Class Reference}
+\hypertarget{class_milc}{}\label{class_milc}\index{Milc@{Milc}}
+
+
+Декоратор добавки "{}Молоко"{}.  
+
+
+Inheritance diagram for Milc:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_milc}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_milc_a7aca50c37c60e2a7056c5d2b1b5f37c1}{Milc}} (\doxymbox{\hyperlink{class_beverage}{Beverage}} \texorpdfstring{$\ast$}{*}b)
+\begin{DoxyCompactList}\small\item\em Конструктор \end{DoxyCompactList}\item 
+string \doxymbox{\hyperlink{class_milc_a217b75bee5a6de6791f75a836133d704}{get\+Description}} () override
+\begin{DoxyCompactList}\small\item\em Возвращает описание напитка с добавкой молока \end{DoxyCompactList}\item 
+double \doxymbox{\hyperlink{class_milc_aee44972ff87018a97b79ab706718b6ff}{cost}} () override
+\begin{DoxyCompactList}\small\item\em Возвращает стоимость с учетом молока \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \doxymbox{\hyperlink{class_condiment_decorator}{Condiment\+Decorator}}}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_condiment_decorator_ae243b2a0f2785a0c1c32340408bebb59}{Condiment\+Decorator}} (\doxymbox{\hyperlink{class_beverage}{Beverage}} \texorpdfstring{$\ast$}{*}b)
+\begin{DoxyCompactList}\small\item\em Конструктор декоратора \end{DoxyCompactList}\item 
+virtual {\bfseries \texorpdfstring{$\sim$}{\string~}\+Condiment\+Decorator} ()
+\begin{DoxyCompactList}\small\item\em Виртуальный деструктор \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \doxymbox{\hyperlink{class_beverage}{Beverage}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual {\bfseries \texorpdfstring{$\sim$}{\string~}\+Beverage} ()
+\begin{DoxyCompactList}\small\item\em Виртуальный деструктор для корректного удаления через базовый класс \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Attributes inherited from \doxymbox{\hyperlink{class_condiment_decorator}{Condiment\+Decorator}}}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_beverage}{Beverage}} \texorpdfstring{$\ast$}{*} {\bfseries bev}
+\begin{DoxyCompactList}\small\item\em Указатель на декорируемый напиток \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Декоратор добавки "{}Молоко"{}. 
+
+Добавляет к описанию "{}Молоко"{} и увеличивает стоимость 
+
+\label{doc-constructors}
+\Hypertarget{class_milc_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_milc_a7aca50c37c60e2a7056c5d2b1b5f37c1}\index{Milc@{Milc}!Milc@{Milc}}
+\index{Milc@{Milc}!Milc@{Milc}}
+\doxysubsubsection{\texorpdfstring{Milc()}{Milc()}}
+{\footnotesize\ttfamily \label{class_milc_a7aca50c37c60e2a7056c5d2b1b5f37c1} 
+Milc::\+\+Milc (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_beverage}{Beverage}} \texorpdfstring{$\ast$}{*}}]{b}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Конструктор 
+
+
+\begin{DoxyParams}{Parameters}
+{\em b} & Указатель на декорируемый напиток \\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{class_milc_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_milc_aee44972ff87018a97b79ab706718b6ff}\index{Milc@{Milc}!cost@{cost}}
+\index{cost@{cost}!Milc@{Milc}}
+\doxysubsubsection{\texorpdfstring{cost()}{cost()}}
+{\footnotesize\ttfamily \label{class_milc_aee44972ff87018a97b79ab706718b6ff} 
+double Milc::\+cost (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Возвращает стоимость с учетом молока 
+
+\begin{DoxyReturn}{Returns}
+Итоговая стоимость 
+\end{DoxyReturn}
+
+
+Reimplemented from \doxymbox{\hyperlink{class_condiment_decorator_aae52dd4645b9c84541728a60295a3882}{Condiment\+Decorator}}.
+
+\Hypertarget{class_milc_a217b75bee5a6de6791f75a836133d704}\index{Milc@{Milc}!getDescription@{getDescription}}
+\index{getDescription@{getDescription}!Milc@{Milc}}
+\doxysubsubsection{\texorpdfstring{getDescription()}{getDescription()}}
+{\footnotesize\ttfamily \label{class_milc_a217b75bee5a6de6791f75a836133d704} 
+string Milc::\+get\+Description (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Возвращает описание напитка с добавкой молока 
+
+\begin{DoxyReturn}{Returns}
+Описание с добавкой 
+\end{DoxyReturn}
+
+
+Reimplemented from \doxymbox{\hyperlink{class_condiment_decorator_a0f95d1319daadd8ed01b2ffaa3c601d6}{Condiment\+Decorator}}.
+
+
+
+The documentation for this class was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+Structural Patterns/\+\+SP/\+SP.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,90 @@
+\doxysection{Launch\+Browser\+Command Class Reference}
+\hypertarget{class_launch_browser_command}{}\label{class_launch_browser_command}\index{LaunchBrowserCommand@{LaunchBrowserCommand}}
+
+
+Конкретная команда запуска браузера  
+
+
+Inheritance diagram for Launch\+Browser\+Command:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_launch_browser_command}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_launch_browser_command_ad58e99a7a1f4bdcf838ff3cfd5bdd5e1}{Launch\+Browser\+Command}} (\doxymbox{\hyperlink{class_computer_system}{Computer\+System}} \texorpdfstring{$\ast$}{*}s)
+\begin{DoxyCompactList}\small\item\em Конструктор команды запуска браузера \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_launch_browser_command_a7095647975f6e36fa51e8831020e6f60}{execute}} () override
+\begin{DoxyCompactList}\small\item\em Выполняет запуск браузера \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_launch_browser_command_a1f74fc3f40306db43bf9df7289388662}{undo}} () override
+\begin{DoxyCompactList}\small\item\em Отменяет запуск браузера (закрывает браузер). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \doxymbox{\hyperlink{class_command}{Command}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual {\bfseries \texorpdfstring{$\sim$}{\string~}\+Command} ()
+\begin{DoxyCompactList}\small\item\em Виртуальный деструктор для корректного удаления через базовый указатель \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Конкретная команда запуска браузера 
+
+Реализует выполнение операции запуска браузера 
+
+\label{doc-constructors}
+\Hypertarget{class_launch_browser_command_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_launch_browser_command_ad58e99a7a1f4bdcf838ff3cfd5bdd5e1}\index{LaunchBrowserCommand@{LaunchBrowserCommand}!LaunchBrowserCommand@{LaunchBrowserCommand}}
+\index{LaunchBrowserCommand@{LaunchBrowserCommand}!LaunchBrowserCommand@{LaunchBrowserCommand}}
+\doxysubsubsection{\texorpdfstring{LaunchBrowserCommand()}{LaunchBrowserCommand()}}
+{\footnotesize\ttfamily \label{class_launch_browser_command_ad58e99a7a1f4bdcf838ff3cfd5bdd5e1} 
+Launch\+Browser\+Command::\+\+Launch\+Browser\+Command (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_computer_system}{Computer\+System}} \texorpdfstring{$\ast$}{*}}]{s}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Конструктор команды запуска браузера 
+
+
+\begin{DoxyParams}{Parameters}
+{\em s} & Указатель на объект \doxylink{class_computer_system}{Computer\+System} \\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{class_launch_browser_command_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_launch_browser_command_a7095647975f6e36fa51e8831020e6f60}\index{LaunchBrowserCommand@{LaunchBrowserCommand}!execute@{execute}}
+\index{execute@{execute}!LaunchBrowserCommand@{LaunchBrowserCommand}}
+\doxysubsubsection{\texorpdfstring{execute()}{execute()}}
+{\footnotesize\ttfamily \label{class_launch_browser_command_a7095647975f6e36fa51e8831020e6f60} 
+void Launch\+Browser\+Command::\+execute (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Выполняет запуск браузера 
+
+
+
+Implements \doxymbox{\hyperlink{class_command_a6fd7d9bd8df8bfc881e4d6c7cd1878b7}{Command}}.
+
+\Hypertarget{class_launch_browser_command_a1f74fc3f40306db43bf9df7289388662}\index{LaunchBrowserCommand@{LaunchBrowserCommand}!undo@{undo}}
+\index{undo@{undo}!LaunchBrowserCommand@{LaunchBrowserCommand}}
+\doxysubsubsection{\texorpdfstring{undo()}{undo()}}
+{\footnotesize\ttfamily \label{class_launch_browser_command_a1f74fc3f40306db43bf9df7289388662} 
+void Launch\+Browser\+Command::\+undo (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Отменяет запуск браузера (закрывает браузер). 
+
+
+
+Implements \doxymbox{\hyperlink{class_command_ad5eccd34dc85abda2cd0c21d819c17dc}{Command}}.
+
+
+
+The documentation for this class was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+Behavioral Patterns/\+\+BP/\+BP.\+cpp\end{DoxyCompactItemize}

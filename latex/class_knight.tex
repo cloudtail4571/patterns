@@ -1,0 +1,84 @@
+\doxysection{Knight Class Reference}
+\hypertarget{class_knight}{}\label{class_knight}\index{Knight@{Knight}}
+
+
+Класс с настройками для персонажа "{}Рыцарь"{}.  
+
+
+Inheritance diagram for Knight:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_knight}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+string \doxymbox{\hyperlink{class_knight_abd9e9abbc5448c928112a4b94d7e7dce}{get\+Type}} () override
+\begin{DoxyCompactList}\small\item\em Функция для получения типа персонажа \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_knight_ade9dd3a7d4b27a59b59f8cb123ecc4f4}{attack}} () override
+\begin{DoxyCompactList}\small\item\em Функция для выполнения действий персонажа \end{DoxyCompactList}\item 
+int \doxymbox{\hyperlink{class_knight_af6c3500520fbedd3aca1bf67191a92b8}{get\+Health}} () override
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Класс с настройками для персонажа "{}Рыцарь"{}. 
+
+\label{doc-func-members}
+\Hypertarget{class_knight_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_knight_ade9dd3a7d4b27a59b59f8cb123ecc4f4}\index{Knight@{Knight}!attack@{attack}}
+\index{attack@{attack}!Knight@{Knight}}
+\doxysubsubsection{\texorpdfstring{attack()}{attack()}}
+{\footnotesize\ttfamily \label{class_knight_ade9dd3a7d4b27a59b59f8cb123ecc4f4} 
+void Knight::\+attack (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Функция для выполнения действий персонажа 
+
+\begin{DoxyNote}{Note}
+Не влияет ни на что. Это учебный код 
+\end{DoxyNote}
+\begin{DoxyRefDesc}{Todo}
+\item[\doxymbox{\hyperlink{todo__todo000004}{Todo}}]Добавить возможность отбирать жизни у того, на кого нападаем \end{DoxyRefDesc}
+
+
+Implements \doxymbox{\hyperlink{class_character}{Character}}.
+
+\Hypertarget{class_knight_af6c3500520fbedd3aca1bf67191a92b8}\index{Knight@{Knight}!getHealth@{getHealth}}
+\index{getHealth@{getHealth}!Knight@{Knight}}
+\doxysubsubsection{\texorpdfstring{getHealth()}{getHealth()}}
+{\footnotesize\ttfamily \label{class_knight_af6c3500520fbedd3aca1bf67191a92b8} 
+int Knight::\+get\+Health (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \doxymbox{\hyperlink{class_character}{Character}}.
+
+\Hypertarget{class_knight_abd9e9abbc5448c928112a4b94d7e7dce}\index{Knight@{Knight}!getType@{getType}}
+\index{getType@{getType}!Knight@{Knight}}
+\doxysubsubsection{\texorpdfstring{getType()}{getType()}}
+{\footnotesize\ttfamily \label{class_knight_abd9e9abbc5448c928112a4b94d7e7dce} 
+string Knight::\+get\+Type (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Функция для получения типа персонажа 
+
+\begin{DoxyReturn}{Returns}
+string -\/ строку, название персонажа 
+\end{DoxyReturn}
+\begin{DoxyRemark}{Remarks}
+Получаем только имя персонажа т.\+к это учебный код 
+\end{DoxyRemark}
+
+
+Implements \doxymbox{\hyperlink{class_character}{Character}}.
+
+
+
+The documentation for this class was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+Creational Patterns/\+\+CP/\+CP.\+cpp\end{DoxyCompactItemize}
