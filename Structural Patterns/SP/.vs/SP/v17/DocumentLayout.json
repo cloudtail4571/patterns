@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\klg\\Desktop\\patterns\\patterns\\Structural Patterns\\SP\\",
+  "WorkspaceRootPath": "C:\\Users\\klg\\Documents\\patterns\\Structural Patterns\\SP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7153C65D-C544-479C-AF10-CFEE02299687}|SP.vcxproj|C:\\Users\\klg\\Desktop\\patterns\\patterns\\Structural Patterns\\SP\\SP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{7153C65D-C544-479C-AF10-CFEE02299687}|SP.vcxproj|C:\\Users\\klg\\Documents\\patterns\\Structural Patterns\\SP\\SP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7153C65D-C544-479C-AF10-CFEE02299687}|SP.vcxproj|solutionrelative:SP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "SP.cpp",
-              "DocumentMoniker": "C:\\Users\\klg\\Desktop\\patterns\\patterns\\Structural Patterns\\SP\\SP.cpp",
+              "DocumentMoniker": "C:\\Users\\klg\\Documents\\patterns\\Structural Patterns\\SP\\SP.cpp",
               "RelativeDocumentMoniker": "SP.cpp",
-              "ToolTip": "C:\\Users\\klg\\Desktop\\patterns\\patterns\\Structural Patterns\\SP\\SP.cpp",
+              "ToolTip": "C:\\Users\\klg\\Documents\\patterns\\Structural Patterns\\SP\\SP.cpp",
               "RelativeToolTip": "SP.cpp",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAQwGUAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAAAIkAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-02-25T13:00:12.068Z",
               "EditorCaption": ""

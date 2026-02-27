@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\klg\\Desktop\\patterns\\patterns\\Creational Patterns\\CP\\",
+  "WorkspaceRootPath": "C:\\Users\\klg\\Documents\\patterns\\Creational Patterns\\CP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2714167D-A2BC-408C-A13F-361FFBBB98F6}|CP.vcxproj|C:\\Users\\klg\\Desktop\\patterns\\patterns\\Creational Patterns\\CP\\CP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{2714167D-A2BC-408C-A13F-361FFBBB98F6}|CP.vcxproj|C:\\Users\\klg\\Documents\\patterns\\Creational Patterns\\CP\\CP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2714167D-A2BC-408C-A13F-361FFBBB98F6}|CP.vcxproj|solutionrelative:CP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "CP.cpp",
-              "DocumentMoniker": "C:\\Users\\klg\\Desktop\\patterns\\patterns\\Creational Patterns\\CP\\CP.cpp",
+              "DocumentMoniker": "C:\\Users\\klg\\Documents\\patterns\\Creational Patterns\\CP\\CP.cpp",
               "RelativeDocumentMoniker": "CP.cpp",
-              "ToolTip": "C:\\Users\\klg\\Desktop\\patterns\\patterns\\Creational Patterns\\CP\\CP.cpp",
+              "ToolTip": "C:\\Users\\klg\\Documents\\patterns\\Creational Patterns\\CP\\CP.cpp",
               "RelativeToolTip": "CP.cpp",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAADMAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAAAKEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-02-25T12:19:33.282Z",
               "EditorCaption": ""
